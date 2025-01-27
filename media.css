@@ -1,0 +1,61 @@
+@media (min-width: 768px) {
+    .container, .container-md, .container-sm {
+        max-width: 1227px;
+    }
+   
+}
+
+@media only screen and (min-width:200px) and (max-width:575px){
+    .btn-outer{
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        background-color: white;
+        padding: 5px 0;
+        left: 0px;
+        justify-content: center !important;
+    }
+    .whatsappbtn, .call{
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+
+    .banner-content h1{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: start;
+        line-height: 50px;
+    }
+
+    .banner-content br{
+        display: none;
+    }
+
+
+    .banner-content p, .banner-content ul li{
+        font-size: 16px;
+
+    }
+
+    .banner-contentbtn {
+        flex-direction: column;
+    }
+
+    .banner-contentbtn button{
+        width: 100%;
+    }
+
+    .bannerform{
+        padding: 20px;
+    }
+
+    .highlightssec h2{
+        font-size: 28px;
+    }
+
+    .carousel-item img{
+        width: 100%;
+        height: 50vh;
+        border-radius: 10px;
+    } 
+}
